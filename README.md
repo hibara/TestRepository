@@ -24,8 +24,8 @@ Repository for test Github
 ![Test Image 6](https://github.com/hibara/TestRepository/blob/master/image/test.png)
 
 ## Raw data
-`![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/blob/master/image/test.png)` -> O.K.     
-![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/blob/master/image/test.png)
+`![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/master/image/test.png)` -> O.K.     
+![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/master/image/test.png)
 
 <https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github>    
 `![Test Image 8](https://github.com/hibara/TestRepository/blob/master/image/test.png?raw=true)` -> O.K.   　
