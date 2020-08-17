@@ -13,10 +13,10 @@ Repository for test Github
 `![Test Image 3](/image/test.png)` -> O.K.    
 ![Test Image 3](/image/test.png)
 
-`![Test Image 4](https://github.com/hibara/TestRepository/image/test.png)` -> O.K.
+`![Test Image 4](https://github.com/hibara/TestRepository/image/test.png)` -> N.G.    
 ![Test Image 4](https://github.com/hibara/TestRepository/image/test.png)
 
-`![Test Image 5](blob/master/image/test.png)` -> O.K.?    
+`![Test Image 5](blob/master/image/test.png)` -> N.G.    
 ![Test Image 5](blob/master/image/test.png)
 
 `![Test Image 6](https://github.com/hibara/TestRepository/blob/master/image/test.png)` -> O.K.    
@@ -26,11 +26,11 @@ Repository for test Github
 ![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/blob/master/image/test.png)
 
 <https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github>
-`![Test Image](https://github.com/hibara/TestRepository/blob/master/image.jpg?raw=true)` -> O.K.?    
-![Test Image](https://github.com/hibara/TestRepository/blob/master/image.jpg?raw=true)
+`![Test Image](https://github.com/hibara/TestRepository/blob/master/test.png?raw=true)` -> O.K.   　
+![Test Image](https://github.com/hibara/TestRepository/blob/master/test.png?raw=true)
 
-`![Test Image](image/img.jpg?raw=true "Test Image Title")` -> O.K.?     
-![Test Image](image/img.jpg?raw=true "Test Image Title")
+`![Test Image](image/img.jpg?raw=true "Test Image Title")` -> O.K.     
+![Test Image](image/test.png?raw=true "Test Image Title")
 
 
 
