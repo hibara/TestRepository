@@ -26,8 +26,8 @@ ref. <https://github.community/t/how-do-you-put-images-on-the-readme-md-file/576
 
 ## Raw data
 
-`![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/master/image/test.png)` -> O.K.  
-![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/master/image/test.png)
+`![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/blob/master/image/test.png)` -> O.K.  
+![Test Image 7](https://raw.githubusercontent.com/hibara/TestRepository/blob/master/image/test.png)
 
 ref. <https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github>
 
@@ -37,6 +37,14 @@ ref. <https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-gi
 `![Test Image 9](image/test.png?raw=true "Test Image Title")` -> O.K.  
 ![Test Image 9](image/test.png?raw=true "Test Image Title")
 
+## Branch data
 
+ref. <https://cakecatz.hatenadiary.com/entry/2015/02/10/214942>
+
+`![Test Image 10](https://github.com/hibara/TestRepository/blob/branch-image/b-image/test.png)` -> O.K.  
+![Test Image 10](https://github.com/hibara/TestRepository/blob/branch-image/b-image/test.png)
+
+`![Test Image 11](https://raw.githubusercontent.com/hibara/TestRepository/branch-image/b-image/branch-test.png)` -> O.K.  
+![Test Image 11](https://raw.githubusercontent.com/hibara/TestRepository/branch-image/b-image/branch-test.png)
 
 
