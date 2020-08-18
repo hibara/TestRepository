@@ -6,7 +6,9 @@ GitHub上で、README.md 上から、レポジトリ内にあるイメージ画�
 
 ## Relative or Absolute Path
 
-まず、相対パスや、絶対パスでのリンクです。「N.G.」となっているものは、うまくリンクが貼られるずに、画像がうまく表示されていないと思います。
+まず、相対パスや、絶対パスでのリンクです。
+
+「N.G.」となっているものは、うまくリンクが貼られずに、画像がうまく表示されていません。
 
 ref. <https://github.community/t/how-do-you-put-images-on-the-readme-md-file/576/5>
 
@@ -31,6 +33,8 @@ ref. <https://github.community/t/how-do-you-put-images-on-the-readme-md-file/576
 `![Test Image 5](blob/master/image/test.png)` -> N.G.  
 ![Test Image 5](blob/master/image/test.png)
 
+絶対パスなら、O.K.
+
 `![Test Image 6](https://github.com/hibara/TestRepository/blob/master/image/test.png)` -> O.K.  
 ![Test Image 6](https://github.com/hibara/TestRepository/blob/master/image/test.png)
 
@@ -45,7 +49,7 @@ ref. <https://github.community/t/how-do-you-put-images-on-the-readme-md-file/576
 
 ref. <https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-github>
 
-リンクの引数として、「raw=true」を渡してやれば、きちんと表示されます。これは相対パスでも行けます。
+リンクの引数として「raw=true」を渡してやれば、きちんと表示されます。これは相対パスでも行けます。
 
 `![Test Image 8](https://github.com/hibara/TestRepository/blob/master/image/test.png?raw=true)` -> O.K.  
 ![Test Image 8](https://github.com/hibara/TestRepository/blob/master/image/test.png?raw=true)
@@ -59,7 +63,11 @@ ref. <https://stackoverflow.com/questions/14494747/add-images-to-readme-md-on-gi
 
 ref. <https://cakecatz.hatenadiary.com/entry/2015/02/10/214942>
 
-以下の例は、「branch-image」というブランチに、「b-image」という画像ディレクトリを作って画像を格納しています。上で表示されている画像と区別するために、あえてちがう画像を貼り付けてみました。
+以下の例は、「branch-image」というブランチに、「b-image」という画像ディレクトリを作って画像を格納しています。
+
+試しに、このレポジトリページから、ブランチを「branch-image」に変更してみてください。前述のディレクトリーが表示されると思います。
+
+ちなみに、今まで表示されている画像と区別するために、今回はあえてちがう画像を貼り付けてみました。
 
 `![Test Image 10](https://github.com/hibara/TestRepository/blob/branch-image/b-image/branch-test.png?raw=true)` -> O.K.  
 ![Test Image 10](https://github.com/hibara/TestRepository/blob/branch-image/b-image/branch-test.png?raw=true)
